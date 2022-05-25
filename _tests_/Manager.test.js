@@ -1,5 +1,5 @@
-const math = require( '../lib/Manager' );
+const checkIfEqual = require('../lib/Manager');
 
-test('checks to see if 2 + 3 = 5', () => {
-    expect(math.add(2,3)).toBe(5);
+test('checks if 100 is equal to 100', () => {
+    expect(checkIfEqual(100, 100)).toBe(true);
 });
