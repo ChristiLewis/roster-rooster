@@ -25,7 +25,8 @@
   },
   "homepage": "https://github.com/ChristiLewis/roster-rooster#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "nodemailer": "^6.7.5"
   },
   "devDependencies": {
     "jest": "^27.5.1"

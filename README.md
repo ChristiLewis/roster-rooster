@@ -40,7 +40,7 @@ Input employees' contact information to quickly access your team.
 4) Install a node package manager or npm named inquirer: npm i inquirer,
 5) Install another npm asset for testing this Test Driven Development (TTD) software:npm install --save-dev jest.  You can verify all functions in the software: npm run test.
 6) If the package.json file is missing run initiate npm: npm init -y,
-7) Verify your npm packages are installed: ls node_modules,
+7) Verify your npm packages are installed: ls node_modules.  If nodemailer is missing run the command npm install nodemailer.
 8) Add a .gitignore file to spare your GitHub repository uploading all npm modules with each commit: touch .gitignore,
 9) Open the .gitignore file and add on line 1: node_modules/,
 10) On line 2 .gitignore file add for mac users: .DS_Store/,
