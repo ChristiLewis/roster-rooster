@@ -38,7 +38,7 @@ Input employees' contact information to quickly access your team.
 2) Make sure you are in the root directory of the project you just cloned: cd <project directory name>,Check your version of node.js: node -v,
 3) Check your version of npm included in node.js: npm -v,
 4) Install a node package manager or npm named inquirer: npm i inquirer,
-5) Install another npm asset for testing this Test Driven Development (TTD) software:npm install --save-dev jest.  You can verify all functions in the software: npm run test.
+5) Install other npm assetS: A)Install another npm named file system or fs: npm i fs  B) for testing this Test Driven Development (TTD) software:npm install --save-dev jest.  You can verify all functions in the software: npm run test.
 6) If the package.json file is missing run initiate npm: npm init -y,
 7) Verify your npm packages are installed: ls node_modules.  If nodemailer is missing run the command npm install nodemailer.
 8) Add a .gitignore file to spare your GitHub repository uploading all npm modules with each commit: touch .gitignore,

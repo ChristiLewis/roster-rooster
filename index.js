@@ -1,15 +1,11 @@
-const Rooster = require('./lib/Rooster.js');
+//IMPORT
 
-new Rooster().initializeRooster();
+const Roster = require('./lib/Roster.js');
 
-//PLACEHOLDER FOR NODEMAILER FUNCTIONALITY
+//CALL
 
-let configOptions = {
-    host: "1.2.3.4",
-    port: 465,
-    secure: true,
-    tls: {
-        // must provide server name, otherwise TLS certificate check will fail
-        servername: "example.com"
-    }
-}
+new Roster().initializeRoster();
+
+
+
+initializeRoster()

@@ -2,7 +2,12 @@ const checkIfEqual = require('../lib/Employee');
 
 
 //PARENT CLASS
-
+class Employee {
+    
+    name: String,
+    id: Number,
+    email: "",
+}
 name:
 id:
 email:
