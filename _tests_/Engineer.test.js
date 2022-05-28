@@ -1,11 +1,16 @@
-const checkIfEqual = require('../lib/Engineer.js');
+//ENGINEER CLASS HAS EMPLOYEE'S PROPERTIES AND METHODS + 
+const Engineer = require('../lib/Engineer.js');
 
-test('checks if 200 is equal to 200', () => {
-    expect(checkIfEqual(200, 200)).toBe(true);
+test('checks if can set up github through the constructor', () => {
+    const testValue = "githubUsername";
+    const eng = new Engineer(
+        'Mike',
+        1,
+        "mike@gmail.com",
+        testValue
+    );
+    expect(`https://github.com/${eng}`).toBe(true);
 });
 
-//ENGINEER CLASS HAS EMPLOYEE'S PROPERTIES AND METHODS + 
 
-github //GITHUB USERNAME
-getGithub()
-getRole() //OVERRIDDEN TO RETURN 'ENGINEER'
+

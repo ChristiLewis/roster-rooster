@@ -14,7 +14,7 @@ const generaterRoster = rosterText => {
 //MULTILINE TEMPLATE LITERALS
 module.exports = templateDate => {
     //DESTRUCTURE DATA FROM TEMPLATE DATA VIA PROPERTY KEY NAMES
-    const { name, ... header } = templateData;
+    const { name, id, email, ... header } = templateData;
 
     return `
     <!DOCTYPE html> 

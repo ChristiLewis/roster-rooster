@@ -1,4 +1,4 @@
-const Contact = require('../lib/Contact');
+const Contact = require('./Contact');
 
 test('creates an email contact object',
 () => {

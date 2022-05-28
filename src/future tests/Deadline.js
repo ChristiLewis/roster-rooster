@@ -1,13 +1,13 @@
 const Employee = require('./Employee');
 //CONTACT DEFINED FIRST SIM TO DEADLINE CONSTRUCTOR EXCEPT ADDRESS 
-const Contact = require('../lib/Contact');
+const Contact = require('../src/TEST/Contact');
 
 class Deadline extends Employee {
     constructor(name, weapon) {
         super(name);
         //MOVED TO PARENT-CHARACTER
         this.weapon = weapon;
-        this.potion = new Potion();    
+        this.contact = new Contact();    
     }
 
     getDescription() {
@@ -15,4 +15,4 @@ class Deadline extends Employee {
     }
 }
 
-module.exports = Enemy;
+module.exports = Deadline;

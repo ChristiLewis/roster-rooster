@@ -1,4 +1,4 @@
-const Deadline = require('../lib/Deadline');
+const Deadline = require('../../lib/Deadline');
 const Contact = require('../lib/_mocks_/Contact.js');
 
 jest.mock('../lib/Contact.js');
