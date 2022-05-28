@@ -9,7 +9,7 @@ test('checks if can set up github through the constructor', () => {
         "mike@gmail.com",
         testValue
     );
-    expect(`https://github.com/${eng}`).toBe(true);
+    expect('githubUsername').toBe(testValue);
 });
 
 
