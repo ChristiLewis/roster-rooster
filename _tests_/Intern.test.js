@@ -1,13 +1,15 @@
-// const { expect } = require('@jest/globals');
-// const { test } = require('picomatch');
-const checkIfEqual = require('../lib/Intern.js');
+//FOR THE TEST THE CHILD NEEDS TO IMPORT ITSELF- THE ACTUAL FUNCTION IT NEEDS TO IMPORT ITS PARENT
+const Intern = require('../lib/Intern.js');
+//INTERN CLASS HAS EMPLOYEE'S PROPERTIES AND METHODS APPLIED IN ITS OWN FUNCTION
 
-test('checks if 100 is equal to 100', () => {
-    expect(checkIfEqual(100, 100)).toBe(true);
+test('checks if it can find a school in the constructor', () => {
+    const testValue = "schoolName";
+    const int = new Intern(
+        'Jane',
+        2,
+        "jane@gmail.com",
+        testValue
+    );
+    expect('schoolName').toBe(testValue);
 });
 
-//INTERN CLASS HAS EMPLOYEE'S PROPERTIES AND METHODS + 
-
-school:
-getSchool()
-getRole() //OVERRIDDEN TO RETURN 'INTERN'
