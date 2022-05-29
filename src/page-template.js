@@ -1,6 +1,6 @@
-const generaterRoster = rosterText => {
+const generateRoster = rosterText => {
     if (!rosterText) {
-        return '';
+        return 'Cockadoodledoo';
     }
 
     return `
@@ -12,9 +12,9 @@ const generaterRoster = rosterText => {
 };
 
 //MULTILINE TEMPLATE LITERALS
-module.exports = templateDate => {
+module.exports = templateData => {
     //DESTRUCTURE DATA FROM TEMPLATE DATA VIA PROPERTY KEY NAMES
-    const { name, id, email, ... header } = templateData;
+    const { employees, ... header } = templateData;
 
     return `
     <!DOCTYPE html> 
@@ -32,7 +32,7 @@ module.exports = templateDate => {
     
     <body>
       <header>
-      <img src="../assets/images/roster-rooster.jpg" alt="image of a rooster weather vane by kati-hoehl-unsplash"/>
+      <img src="./assets/images/roster-rooster.jpg" alt="image of a rooster weather vane by kati-hoehl-unsplash"/>
         <div class="container flex-row justify-space-between align-center py-3">
           <h1 class="page-title text-secondary bg-dark py-2 px-3">${header.name}</h1>
           <nav class="flex-row">
