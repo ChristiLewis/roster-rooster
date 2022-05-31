@@ -1,4 +1,4 @@
-const generateRooster = roosterText => {
+const generateRoster = contactDataText => {
     if (!roosterText) {
         return 'Cockadoodledoo';
     }
