@@ -1,3 +1,3 @@
-const Roster = require('./lib/Roster');
+const Rooster = require('./lib/Rooster');
 
-Roster.prototype.initializeRoster();
+Rooster();
