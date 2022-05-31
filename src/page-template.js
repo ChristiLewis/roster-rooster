@@ -1,5 +1,5 @@
-const generateRoster = rosterText => {
-    if (!rosterText) {
+const generateRooster = roosterText => {
+    if (!roosterText) {
         return 'Cockadoodledoo';
     }
 
