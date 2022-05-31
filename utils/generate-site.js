@@ -1,3 +1,5 @@
+//REMEMBER TO INSTALL INQUIRER FROM THE COMMAND LINE AND ADD INSTRUCTIONS IN THE README FILE
+const inquirer = require('inquirer');
 const fs = require('fs');
 const { resolve } = require('path');
 

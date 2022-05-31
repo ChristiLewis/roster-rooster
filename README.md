@@ -52,8 +52,8 @@ Input employees' contact information to quickly access your team.
 ## Usage
 
 * **Start the application by typing node index.js**
-* ![Preview Image](./assets/images/roster-rooster.jpg)
-* [![Watch the video]( https://img.video.jpg)]( https://youtu.be/TBD)
+* Click on the image to watch the video!
+* [![Watch the video](./assets/images/roster-rooster.jpg)]( https://youtu.be/BhP-VUNM6oE)
 
 * [GitHub Repo for roster-rooster](https://github.com/ChristiLewis/roster-rooster)
 
