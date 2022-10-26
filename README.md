@@ -69,7 +69,7 @@ Input employees' contact information to quickly access your team.
 * There are no badges at this time.
 
 ## Features
-* node.js practice & README file expediting
+* node.js practice & HTML file expediting
 
 ## Contribute
 * We are open to contributions, please contact the student, ChristiLewis.
